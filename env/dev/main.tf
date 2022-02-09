@@ -1,4 +1,4 @@
-resource "null_resource" "env_res_2" {
+resource "null_resource" "env_res" {
 }
 
 module "demo_module" {
