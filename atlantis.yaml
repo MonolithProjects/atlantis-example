@@ -8,7 +8,6 @@ projects:
   autoplan:
     when_modified: ["*.tf", "../../modules/**/*.tf"]
     enabled: true
-  apply_requirements: []
 
 - name: prod
   dir: env/prod
@@ -16,4 +15,3 @@ projects:
   autoplan:
     when_modified: ["*.tf", "../../modules/**/*.tf"]
     enabled: true
-  apply_requirements: [approved]
