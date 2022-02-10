@@ -5,6 +5,6 @@ module "demo_module" {
   source      = "../../modules/demo_module"
 }
 
-module "demo_module" {
+module "demo_module2" {
   source      = "../../modules/demo_module2"
 }
